@@ -1,0 +1,96 @@
+.container{
+    width: 65%;
+    margin: 4rem auto 1rem auto;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    max-width: 1920px;
+}
+
+h1{
+    
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    align-self: center;
+   
+}
+
+.productos{
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.producto__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.producto__container:hover{
+    background-color: #48426D;
+    border-radius: 1rem;
+    color:white;
+    transition: 0.3s;
+    
+}
+
+.producto{
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+
+.precio{
+    font-weight: 600;
+}
+
+.check{
+    
+    background-color: #48426D;
+    color:white;
+}
+
+.imagen{
+	width: 10rem;
+	height: 10rem;
+}
+
+label, input {
+	display: none;
+}
+
+.button{
+    background-color: #48426D;
+    color:#fff;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 1.25rem;
+    margin:auto;
+    margin-top: 1rem;
+    padding: 0.6rem 2.2rem;
+    border: 0;
+}
+
+.button:hover{
+    background-color: #312C51;
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+
+.form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3rem;
+}

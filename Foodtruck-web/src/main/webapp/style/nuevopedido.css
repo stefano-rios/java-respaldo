@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+    font-family: Roboto;
+    color:#48426D;
+    font-size: 16px;
+    user-select: none;
+}
+
+.form{
+    width: 65%;
+    margin: 4rem auto 1rem auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    max-width: 1920px;
+}
+
+.form__container{
+    background-color: #fff;
+    border-radius: 1.25rem;
+    padding: 3rem 4rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display:flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h1{
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+.item__container{
+    display:  flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.radio{
+    display: none;
+    cursor: pointer;
+}
+
+i{
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+.fa-shop, .fa-truck{
+    color:#bdb9db;
+}
+
+label{
+    font-size: 0.7rem;
+}
+
+.elegido{
+    color: #312C51;
+}
+
+img{
+    width: 50px;
+    border-radius: 1rem;
+    
+}
+
+.lineas{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.linea{
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+
+
+.cantidad{
+    text-decoration: none;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #312C51;
+    padding-left: 0.7rem;
+    width: 30px;
+     
+}
+
+.linea__item{
+    display: flex;
+    font-size: 0.75rem;
+    gap: 0.5rem;
+}
+
+.linea__container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.linea__titulo{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.linea__precio{
+    font-weight: 700;
+}
+
+.button{
+    background-color: #48426D;
+    color:#fff;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 1.25rem;
+    margin:auto;
+    margin-top: 1rem;
+    padding: 0.6rem 2.2rem;
+    border: 0;
+}
+
+.confirmar{
+    background-color: #F0C38E;
+    color:#312C51;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 1.25rem;
+    margin:auto;
+    margin-top: 1rem;
+    padding: 0.6rem 2.2rem;
+    border: 0;
+}
+
+.confirmar:hover{
+    background-color: #f0bc82;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: #312C51;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.total{
+    font-weight: 800;
+    align-self: flex-end;
+}

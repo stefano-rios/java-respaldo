@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    font-family: Roboto
+     
+}
+
+h1{
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+main{
+    
+    width: 85%;
+    margin: auto;
+    display: flex;
+    max-width: 1920px;
+    justify-content: center;
+    gap: 2rem;
+    
+    
+    
+}
+
+.pedidos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+    
+}
+.pedido{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 1.25rem;
+    padding: 2rem 2rem;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    min-width: 15rem;
+    margin-bottom: 1rem;
+    
+}
+
+.buscar{
+ 	display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 2rem 2rem;
+    
+}
+
+
+
+.pedido__header {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nro {
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+ 
+}
+
+
+
+.pedido__content{
+    display: flex;
+   
+    flex-direction: column;
+
+}
+
+.lineas {
+    display:flex;
+    flex-direction: column;
+   
+    
+    
+}
+
+
+.linea{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.linea__content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    max-width: 13rem;
+    
+    line-height: 1.5;
+    
+}
+
+.linea__titulo{
+    font-weight: 700;
+    font-size: 1.2rem;
+   
+}
+
+.linea__desc{
+    
+    font-size: 0.9rem;
+}
+
+.cantidad{
+    font-weight: 800;
+    
+}
+
+.button{
+    background-color: #48426D;
+    color:#fff;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 1.25rem;
+    margin:auto;
+    margin-bottom: 0;
+    padding: 0.6rem 2.2rem;
+    border: 0;
+}
+
+.button:hover{
+    background-color: #312C51;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.entregar{
+    background-color: #F0C38E;
+    color:#312C51;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 1.25rem;
+    margin:auto;
+    margin-bottom: 0;
+    padding: 0.6rem 2.2rem;
+    border: 0;
+}
+
+.entregar:hover{
+    background-color: #f0bc82;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+
+.espacio{
+	margin-bottom: 2rem;
+}
+.nombre{
+	margin-top: 0.3rem;
+	text-align: center;
+	font-size: 0.7rem;
+}
+
+.direccion{
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+

@@ -1,0 +1,36 @@
+main{
+    
+    width: 85%;
+    margin: auto;
+    display: flex;
+    max-width: 1920px;
+    justify-content: center;
+}
+
+.container {
+	display:flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.error{
+	margin-top: 5rem;
+}
+
+.button{
+    background-color: #48426D;
+    color:#fff;
+    font-weight: 500;
+    font-family: Roboto;
+    border-radius: 1.25rem;
+    margin:auto;
+    margin-bottom: 0;
+    padding: 0.6rem 2.2rem;
+    border: 0;
+}
+
+.button:hover{
+    background-color: #312C51;
+    transition: 1s;
+    cursor: pointer;
+}
